@@ -10,7 +10,9 @@ resources:
 
 # Sealed Secrets
 - argocd/instances/sealed-secrets.yaml
-
+## Cloud Pak for Integration
+- argocd/operators/ibm-datapower-operator.yaml
+- argocd/instances/ibm-datapower-instance.yaml
 
 patches:
 - target:
